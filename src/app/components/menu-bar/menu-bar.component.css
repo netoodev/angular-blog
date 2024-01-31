@@ -1,0 +1,36 @@
+.container__menu-bar {
+  padding: 0 5%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__menu-bar .menu-bar__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container__menu-bar .menu-bar__info img {
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container__menu-bar .menu-bar__info span {
+  cursor: pointer;
+}
+
+.container__menu-bar ul{
+  margin: 0 auto;
+  padding-right: 169.66px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+a:hover {
+  text-decoration: underline;
+}

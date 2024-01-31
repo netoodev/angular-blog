@@ -32,6 +32,7 @@
   color: #B0B0B0;
 }
 
-.container__small-card-separator {
+.container__small-card-separator > hr {
   margin-top: 10px;
+  border-color:#4e4e4e;
 }
