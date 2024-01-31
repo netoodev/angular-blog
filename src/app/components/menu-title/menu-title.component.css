@@ -10,6 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: default;
+  user-select: none;
 }
 
 .container__menu-title > hr {
