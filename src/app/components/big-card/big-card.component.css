@@ -1,6 +1,6 @@
 .container__big-card {
   /* border: solid #fff 2px; */
-  margin: 50px;
+  margin: 0 50px;
   width: 600px;
   height: 500px;
   display: flex;
@@ -21,7 +21,16 @@
   font-size: 15px;
 }
 
-.big-card__description > p {
+.big-card__description {
   margin-top: 10px;
+}
+
+.big-card__description > p > a{
   color: #8f8f8f;
+  font-weight: 600;
+}
+
+.big-card__photo > img{
+  width: 100%;
+  min-width: 600px;
 }
