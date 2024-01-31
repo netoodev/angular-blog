@@ -11,14 +11,16 @@
 
 .big-card__title > h1{
   margin-top: 10px;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #B0B0B0;
 }
 
 .big-card__date > p {
   margin-top: 10px;
-  color: #5c5c5c;
-  font-weight: 600;
-  font-size: 15px;
+  color: #4E4E4E;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .big-card__description {
@@ -27,7 +29,8 @@
 
 .big-card__description > p > a{
   color: #8f8f8f;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .big-card__photo > img{
