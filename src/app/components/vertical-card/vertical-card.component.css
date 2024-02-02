@@ -1,0 +1,13 @@
+.container__vertical-article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+
+.vertical-card__date {
+  color: #000;
+}
+
+.vertical-card__description {
+  color: #000;
+}

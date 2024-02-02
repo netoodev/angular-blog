@@ -29,6 +29,9 @@
 
 .small-card__title > h1 {
   font-size: 20px;
+}
+
+.small-card__title > h1 > a {
   color: #B0B0B0;
 }
 

@@ -30,8 +30,15 @@
   align-items: center;
   gap: 40px;
   user-select: none;
+  color: #fff;
 }
 
-a:hover {
+.container__menu-bar ul > li > a {
+  color: #B0B0B0;
+  transition: .5s;
+}
+
+.container__menu-bar ul > li > a:hover {
   text-decoration: underline;
+  color: #fff;
 }
