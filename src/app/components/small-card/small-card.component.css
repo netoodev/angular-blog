@@ -33,6 +33,11 @@
 
 .small-card__title > h1 > a {
   color: #B0B0B0;
+  transition: .5s;
+}
+
+.small-card__title > h1 > a:hover {
+  color: #fafafa;
 }
 
 .container__small-card-separator > hr {

@@ -1,10 +1,12 @@
 <div class="container__big-card">
-  <div class="big-card__photo">
-      <img
-        src="{{photoCover}}"
-        alt="{{photoAlt}}"
-      >
-  </div>
+  <a [routerLink]="['content', id]" class="img-hover">
+    <div class="big-card__photo">
+        <img
+          src="{{photoCover}}"
+          alt="{{photoAlt}}"
+        >
+    </div>
+  </a>
   <div class="big-card__date">
     <p>{{cardDate}}</p>
   </div>

@@ -1,11 +1,11 @@
 <div class="container__vertical-card">
-  <div class="vertical-card__photo">
-    <img src="" alt="">
-  </div>
+  <a [routerLink]="['content', id]" class="img-hover">
+    <div class="vertical-card__photo" style="background-image: url('{{photoCover}}');"></div>
+  </a>
   <div class="vertical-card__date">
-    <p>15 de Janeiro, 2024</p>
+    <p>{{cardDate}}</p>
   </div>
-  <div class="vertical-card__description">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquid facere, praesentium assumenda vel voluptate ipsum aperiam adipisci! Sunt ad saepe eos cupiditate necessitatibus tenetur illum obcaecati, aut dolorem molestiae!</p>
+  <div class="vertical-card__title">
+    <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
   </div>
 </div>

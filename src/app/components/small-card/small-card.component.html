@@ -1,11 +1,13 @@
 <div class="container__small-card">
   <div class="container__small-card-content">
-    <div class="small-card__photo">
-      <img
-        src="{{photoCover}}"
-        alt="{{photoAlt}}"
-      >
-    </div>
+    <a [routerLink]="['content', id]" class="img-hover">
+      <div class="small-card__photo">
+          <img
+            src="{{photoCover}}"
+            alt="{{photoAlt}}"
+          >
+        </div>
+    </a>
     <div class="info-wrapper__small-card">
       <div class="small-card__date">
         <p>{{cardDate}}</p>

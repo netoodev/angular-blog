@@ -1,13 +1,35 @@
-.container__vertical-article {
+.container__vertical-card {
+  max-width: 287px;
   display: flex;
   flex-direction: column;
-  padding: 0 5%;
+  padding: 40px 0;
+  gap: 10px;
 }
 
-.vertical-card__date {
-  color: #000;
+.vertical-card__photo {
+  width: 287px;
+  height: 509.27px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.vertical-card__description {
-  color: #000;
+.vertical-card__date > p {
+  color: #B0B0B0;
+  font-weight: 400;
+  font-size: 12px;
 }
+
+.vertical-card__title > h1 {
+  font-size: 20px;
+}
+
+.vertical-card__title > h1 > a {
+  color: #1A1B1F;
+  transition: .5s;
+}
+
+.vertical-card__title > h1 > a:hover {
+  color: #727585;
+}
+
