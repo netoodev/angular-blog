@@ -4,13 +4,13 @@
   justify-content: center;
 }
 
-section#universo-literario {
+section#vertical-section {
   width: 100%;
   background-color: #fff;
   padding: 50px 5%;
 }
 
-section#universo-literario > h1 {
+section#vertical-section > h1 {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;

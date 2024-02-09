@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { VerticalCardComponent } from './components/vertical-card/vertical-card.component';
 import { TrendingCardComponent } from './components/trending-card/trending-card.component';
+import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TrendingCardComponent } from './components/trending-card/trending-card.
     HomeComponent,
     ContentComponent,
     VerticalCardComponent,
-    TrendingCardComponent
+    TrendingCardComponent,
+    FooterBarComponent
   ],
   imports: [
     BrowserModule,
