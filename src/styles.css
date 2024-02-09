@@ -16,7 +16,15 @@ a {
   text-decoration: none;
 }
 
-a.img-hover:hover {
-  opacity: 0.7;
+a.img-hover {
   transition: .5s;
+}
+
+a.img-hover:hover {
+  scale: 1.1;
+  filter: grayscale(100%);
+}
+
+.mention {
+  font-style: italic;
 }

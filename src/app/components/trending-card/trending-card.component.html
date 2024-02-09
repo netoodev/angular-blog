@@ -1,0 +1,21 @@
+<div class="container__trending-card">
+
+  <div class="trending-card__texts">
+    <div class="trending-card__title">
+      <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
+    </div>
+
+    <div class="trending-card__description">
+      <p><a [routerLink]="['content', id]">{{cardDescription}}</a></p>
+    </div>
+
+    <div class="trending-card__btn">
+      <a [routerLink]="['content', id]">{{cardUrl}}</a>
+    </div>
+  </div>
+
+  <a [routerLink]="['content', id]" class="img-hover">
+    <div class="trending-card__photo" style="background-image: url('{{photoCover}}');"></div>
+  </a>
+</div>
+

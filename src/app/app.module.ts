@@ -10,6 +10,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { VerticalCardComponent } from './components/vertical-card/vertical-card.component';
+import { TrendingCardComponent } from './components/trending-card/trending-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { VerticalCardComponent } from './components/vertical-card/vertical-card.
     SmallCardComponent,
     HomeComponent,
     ContentComponent,
-    VerticalCardComponent
+    VerticalCardComponent,
+    TrendingCardComponent
   ],
   imports: [
     BrowserModule,
