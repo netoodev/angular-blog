@@ -10,8 +10,10 @@ import { dataFake } from '../../data/dataFake';
 export class ContentComponent implements OnInit {
 
   photoCover:string = '';
+  photoSubtitle:string = '';
   contentTitle:string = '';
   contentDescription:string = '';
+  contentArcticle:string = '';
 
   private id:string | null = "0";
 
@@ -29,11 +31,13 @@ export class ContentComponent implements OnInit {
 
   setValuesComponent(id:string | null){
     const result = dataFake.filter(article => article.id == id)[0];
-    
+
 
     this.contentTitle = result.title;
     this.contentDescription = result.description;
-    this.photoCover = result.photo
+    this.contentArcticle = result.arcticle;
+    this.photoCover = result.photo;
+    this.photoSubtitle = result.subtitle;
   }
 
 
