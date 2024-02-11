@@ -1,6 +1,5 @@
 .container__content {
   width: 100%;
-  margin-top: 20px;
 
   display: flex;
   flex-direction: column;
@@ -15,7 +14,7 @@
   font-size: 4rem;
   font-weight: 800;
   width: 90%;
-  padding: 0 5%;
+  padding: 20px 5%;
   text-align: left;
   text-transform: uppercase;
   display: flex;
@@ -26,7 +25,6 @@
 }
 
 hr {
-  margin: 20px 0 5px 0;
   border-color:#4e4e4e;
 }
 

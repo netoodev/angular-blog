@@ -1,8 +1,15 @@
 .container__menu-bar {
   padding: 0 5%;
-  margin-top: 15px;
+}
+
+nav {
+  max-width: 1280px;
+  height: 70px;
+  margin-inline: auto;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .container__menu-bar .menu-bar__info {
@@ -21,20 +28,17 @@
   cursor: pointer;
 }
 
-.container__menu-bar ul{
-  margin: 0 auto;
-  padding-right: 169.66px;
+.nav-list{
   list-style: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+  gap: 32px;
   user-select: none;
   color: #fff;
 }
 
 .container__menu-bar ul > li > a {
   color: #B0B0B0;
+  padding-block: 16px;
   transition: .5s;
 }
 
@@ -42,3 +46,4 @@
   text-decoration: underline;
   color: #fff;
 }
+

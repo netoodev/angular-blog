@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './menu-bar.component.css'
 })
 export class MenuBarComponent {
-
+  
 }
