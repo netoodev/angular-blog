@@ -38,10 +38,7 @@ ng serve
 2° - Ao buildar o server, identifique o link do Localhost e copie e cole-o em seu navegador;
 
 3° - Pronto, agora o projeto já está rodando na sua máquina!
-## 🎬 Preview
 
-Visualize um pouco do projeto:
-
-![Preview](https://media.discordapp.net/attachments/1118178250418573376/1208061782007222322/angular-blog.gif?ex=65e1ea35&is=65cf7535&hm=ecd4bb24c9efdd7f0d5c0ee45d129604f7119523fd0e1b06990b9969b53d2f01&=&width=552&height=310)
+___
 
 #### Obrigado por chegar até aqui! 💜
